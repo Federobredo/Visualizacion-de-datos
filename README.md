@@ -1,89 +1,36 @@
-# Templates de Visualización de Datos
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Este repositorio ofrece una colección de templates en React para la visualización de datos y presentación de información; en el marco de la materia Visualización de Datos en UTDT. 
-Están diseñados para su uso en proyectos con Next.js, TypeScript y Tailwind CSS.
+## Getting Started
 
-## Contenido
+First, run the development server:
 
-1. [Requisitos](#requisitos)
-2. [Instalación](#instalación)
-3. [Uso](#uso)
-4. [Templates Disponibles](#templates-disponibles)
-5. [Personalización](#personalización)
-6. [Contribución](#contribución)
-7. [Licencia](#licencia)
-
-## Requisitos
-
-- Node.js (versión 14 o superior)
-- npm
-  
-## Instalación
-
-1. Cloná este repositorio:
-   
-```bash
-git clone https://github.com/luzalbaposse/dataviz-templates.git
-```
-
-2. Navegá al directorio del proyecto:
-   
-```bash
-cd data-viztemplates
-```
-
-3. Instalá las dependencias:
-   
-```bash
-npm install
-```
-
-## Uso
-
-1. Iniciá el servidor de desarrollo:
-   
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-2. Abrí el navegador y visitá [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-3. Navegá entre los templates disponibles en sus respectivas rutas (ver [Templates Disponibles](#templates-disponibles)).
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Templates Disponibles
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 1. Template Sobrio (dataviz-template-1)
+## Learn More
 
-- **Ruta**: /dataviz-template-1
-- **Descripción**: Diseño profesional y minimalista, ideal para presentaciones formales o informes.
-- **Características**: Disposición de dos columnas, tipografía limpia y áreas dedicadas a gráficos y datos.
+To learn more about Next.js, take a look at the following resources:
 
-### 2. Template de Reporte de Impacto Visual (dataviz-template-2)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- **Ruta**: /dataviz-template-2
-- **Descripción**: Enfocado en un diseño visualmente atractivo para reportes y presentaciones impactantes.
-- **Características**: Secciones audaces, tipografía destacada y espacio para imágenes y gráficos.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### 3. Template de Visualización (dataviz-template-3)
+## Deploy on Vercel
 
-- **Ruta**: /dataviz-template-3
-- **Descripción**: Este template está diseñado para reportes donde los gráficos y las visualizaciones de datos son el foco principal.
-- **Características**: Secciones múltiples para gráficos variados, con áreas de texto explicativo y diseño responsivo.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### 4. Template Estilo NYT (dataviz-template-4)
-
-- **Ruta**: /dataviz-template-4
-- **Descripción**: Inspirado en artículos de opinión del New York Times, pensado para ensayos o reportajes largos.
-- **Características**: Diseño en una sola columna, tipografía serif y elementos gráficos sutiles.
-
-## Contribución
-
-Contribuí cuando quieras : ) Para cambios significativos, abrí un issue para discutirlos antes de enviar un pull request.
-
-1. Hacé fork del repositorio
-2. Creá una rama (git checkout -b feature/NuevaFeature)
-3. Hacé commit de tus cambios (git commit -m 'Agrego nueva feature')
-4. Hacé push a la rama (git push origin feature/NuevaFeature)
-5. Abrí un Pull Request
-
-Made with love by luz : )
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
